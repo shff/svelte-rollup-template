@@ -1,0 +1,128 @@
+{
+  "license": "MIT",
+  "name": "svelte-rollup-template",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "start": "rollup -c rollup.config.js --watch",
+    "start:hot": "yarn build && NOLLUP=1 nollup -c --hot --port 5000 --content-base dist",
+    "rebuild": "yarn clean && yarn build",
+    "clean": "rm -rf dist",
+    "lint": "eslint app/**/*.js app/**/*.svelte",
+    "lint:css": "stylelint '**/*.less' '**/*.svelte' --syntax less",
+    "lint:watch": "esw app/*.js app/**/*.svelte -w --color --clear",
+    "prettify": "prettier --write ./*.js ./**/*.js ./**/*.svelte",
+    "test": "jasmine",
+    "e2e": "yarn build && cypress run -C false --config video=false,integrationFolder=app,supportFile=false,pluginsFile=false,testFiles=**/*.spec.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@rollup/plugin-html": "^0.1.1",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "livereload": "^0.9.1",
+    "node-zopfli": "^2.1.3",
+    "nollup": "^0.10.7",
+    "rollup": "^2.3.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-gzip": "^2.3.0",
+    "rollup-plugin-hot": "^0.0.14",
+    "rollup-plugin-livereload": "^1.1.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-svelte": "^5.2.0",
+    "rollup-plugin-svelte-hot": "^0.4.2",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-watch": "^4.3.1",
+    "svelte": "^3.20.1"
+  },
+  "optionalDependencies": {
+    "babel-eslint": "^10.1.0",
+    "cypress": "^4.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-svelte3": "^2.7.3",
+    "eslint-plugin-unicorn": "^18.0.1",
+    "eslint-watch": "^6.0.1",
+    "husky": "^4.2.3",
+    "jasmine": "^3.5.0",
+    "lint-staged": "^10.1.1",
+    "prettier": "^2.0.2",
+    "prettier-plugin-svelte": "^0.7.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ]
+  },
+  "browserslist": [
+    ">0.6%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended",
+      "plugin:promise/recommended",
+      "plugin:unicorn/recommended"
+    ],
+    "plugins": [
+      "svelte3",
+      "prettier",
+      "promise",
+      "no-loops",
+      "unicorn",
+      "cypress",
+      "html"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.svelte"
+        ],
+        "processor": "svelte3/svelte3"
+      }
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint",
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "modules": true
+      }
+    },
+    "settings": {
+      "html/html-extensions": [
+        ".html",
+        ".svelte"
+      ]
+    },
+    "globals": {
+      "document": true
+    },
+    "rules": {
+      "no-new": "off",
+      "promise/prefer-await-to-callbacks": "error",
+      "promise/prefer-await-to-then": "error",
+      "no-loops/no-loops": 2,
+      "import/no-unresolved": "off"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,css,json,md,vue}": [
+      "prettier --write"
+    ]
+  }
+}
