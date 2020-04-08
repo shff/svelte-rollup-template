@@ -4951,16 +4951,16 @@ rollup-plugin-serve@^1.0.1:
     mime ">=2.0.3"
     opener "1"
 
-rollup-plugin-svelte-hot@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte-hot/-/rollup-plugin-svelte-hot-0.4.2.tgz#e876144876ef41547acb684184113bb7f3373000"
-  integrity sha512-bMsDK8L3Df2whwT3FakuSdi9dEbeEYhizcUnZoEGips0q54eHSfkrWcB01n1BD2bg8IPD0F9yp+5qJoMYL8bEA==
+rollup-plugin-svelte-hot@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte-hot/-/rollup-plugin-svelte-hot-0.5.0.tgz#1306dfc93aeb414e1a589e72984694882a6909d7"
+  integrity sha512-DW6kjVr5Ng2L9vpH1eSgf84hXaVQ3ybndksx1DHbrBVB81WTWSCYX/+nklr9SZ/N9sZeU/4ZR2Y/OeCTCQvQZg==
   dependencies:
     require-relative "^0.8.7"
     rollup-plugin-hot "^0.0.9-0"
     rollup-pluginutils "^2.8.2"
-    sourcemap-codec "^1.4.4"
-    svelte-hmr "^0.5.0"
+    sourcemap-codec "^1.4.8"
+    svelte-hmr "^0.6.0"
   optionalDependencies:
     nollup ">=0.8.4"
 
@@ -5260,7 +5260,7 @@ source-map@^0.6.0, source-map@~0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-sourcemap-codec@^1.4.1, sourcemap-codec@^1.4.4, sourcemap-codec@^1.4.8:
+sourcemap-codec@^1.4.1, sourcemap-codec@^1.4.8:
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
@@ -5507,10 +5507,10 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte-hmr@^0.5.0:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.5.1.tgz#4f19a8c2635c6b71014784afcc5a6ae90f818caa"
-  integrity sha512-zX1yK3o+IZhjGcUwpde1ykA0CCbjfQATuiDnqUomaZg0wOT21Ioiz9XaQSxOkSMF5r5QYu3nd+ZK+8ML71T4/w==
+svelte-hmr@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.6.0.tgz#649fdbdae874a60ab9d71637c74557758f679345"
+  integrity sha512-hYSc7leY88jPgB1bsO6jLLB3LWBCvHN7aQZQQw/9El9UXmik3fwc6piZOLlzlfDdMW53MUQYd8B+C1P8wtitbA==
 
 svelte@^3.20.1:
   version "3.20.1"
