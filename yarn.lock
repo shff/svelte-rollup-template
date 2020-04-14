@@ -3915,7 +3915,7 @@ mime-db@1.43.0:
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.43.0.tgz#0a12e0502650e473d735535050e7c8f4eb4fae58"
   integrity sha512-+5dsGEEovYbT8UY9yD7eE4XTc4UwJ1jBYlgaQQF38ENsKR3wj/8q8RFZrF9WIZpB2V1ArTVFUva8sAul1NzRzQ==
 
-mime-types@^2.1.12, mime-types@^2.1.24, mime-types@~2.1.19, mime-types@~2.1.24:
+mime-types@^2.1.12, mime-types@^2.1.24, mime-types@^2.1.26, mime-types@~2.1.19, mime-types@~2.1.24:
   version "2.1.26"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.26.tgz#9c921fc09b7e149a65dfdc0da4d20997200b0a06"
   integrity sha512-01paPWYgLrkqAyrlDorC1uDwl2p3qZT7yl806vW7DvDoxwXi46jsjFbg+WdwotBIk6/MbEhO/dh5aZ5sNj/dWQ==
@@ -4924,13 +4924,14 @@ rollup-plugin-gzip@^2.3.0:
   resolved "https://registry.yarnpkg.com/rollup-plugin-gzip/-/rollup-plugin-gzip-2.3.0.tgz#501c5ace9406b84fca4c88e8a081bd21a81abcdb"
   integrity sha512-88TOMhGSVrz0WMk7mIs49dZSR9wT7UOiJe9O2Dpwr1Wa8lcgL90sqCdKiPcGKewltKOBJSuoBFy9juPqpKsDkQ==
 
-rollup-plugin-hot@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-hot/-/rollup-plugin-hot-0.0.14.tgz#689f06d1c1cc11192ae56bf93331914e32af9ce1"
-  integrity sha512-/TZ94CBupSf2tnhrppDTIqCEJrJPcjGJem1b9iDDBKk35IhtURimHjOuV2nGY0uzSp0H2ZbfM2BWUtRzCbvscg==
+rollup-plugin-hot@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-hot/-/rollup-plugin-hot-0.0.16.tgz#537ac7fad51a6f8069f25288f5627fc85479f167"
+  integrity sha512-yZGc5wnrIdf8dGMXK2ii3UfribzcnJeJoZHMfatHz4otYGDUg10fh/Vges6LpM5J57Nn0NZlULxzLDdm6+l1Rw==
   dependencies:
     cors "^2.8.5"
     express "^4.17.1"
+    mime-types "^2.1.26"
     rollup-pluginutils "^2.8.2"
     ws "^7.1.2"
 
