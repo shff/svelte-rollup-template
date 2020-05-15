@@ -5015,10 +5015,10 @@ rollup-watch@^4.3.1:
     require-relative "0.8.7"
     rollup-pluginutils "^2.0.1"
 
-rollup@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.3.2.tgz#afa68e4f3325bcef4e150d082056bef450bcac60"
-  integrity sha512-p66+fbfaUUOGE84sHXAOgfeaYQMslgAazoQMp//nlR519R61213EPFgrMZa48j31jNacJwexSAR1Q8V/BwGKBA==
+rollup@^2.10.1:
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.10.1.tgz#18a97703f0cb6e3a1711a3e4db42021d5290cecc"
+  integrity sha512-d7e9QM49YAnFjqxTm4HbzDMLX6KeTKEd7UY7uCqP/uVCviXEjyl4e/sGfulTIgvZHVYFS4jXhr+Qugp+WPHkYQ==
   optionalDependencies:
     fsevents "~2.1.2"
 
