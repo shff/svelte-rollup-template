@@ -821,6 +821,15 @@
   dependencies:
     estree-walker "^1.0.1"
 
+"@rollup/pluginutils@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-3.1.0.tgz#706b4524ee6dc8b103b3c995533e5ad680c02b9b"
+  integrity sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==
+  dependencies:
+    "@types/estree" "0.0.39"
+    estree-walker "^1.0.1"
+    picomatch "^2.2.2"
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
@@ -860,6 +869,11 @@
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
+
+"@types/estree@0.0.39":
+  version "0.0.39"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
+  integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/jquery@*":
   version "3.3.34"
@@ -4482,7 +4496,7 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
-picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.0.7:
+picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.0.7, picomatch@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
@@ -4943,20 +4957,17 @@ rollup-plugin-gzip@^2.3.0:
   resolved "https://registry.yarnpkg.com/rollup-plugin-gzip/-/rollup-plugin-gzip-2.3.0.tgz#501c5ace9406b84fca4c88e8a081bd21a81abcdb"
   integrity sha512-88TOMhGSVrz0WMk7mIs49dZSR9wT7UOiJe9O2Dpwr1Wa8lcgL90sqCdKiPcGKewltKOBJSuoBFy9juPqpKsDkQ==
 
+rollup-plugin-hot-nollup@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-hot-nollup/-/rollup-plugin-hot-nollup-0.1.0.tgz#b36bd30f383cc2b5d882c6980135ed86a0ff3747"
+  integrity sha512-TTjkQrQHBndvF7rGAvhJ9ul+uPCVITpXvrvyDlebsVOVcUKyDrz4/3BysGoMIGWqsqrHlzc1BLadQQIEA+k4tw==
+  dependencies:
+    "@rollup/pluginutils" "^3.1.0"
+
 rollup-plugin-hot@^0.0.14:
   version "0.0.14"
   resolved "https://registry.yarnpkg.com/rollup-plugin-hot/-/rollup-plugin-hot-0.0.14.tgz#689f06d1c1cc11192ae56bf93331914e32af9ce1"
   integrity sha512-/TZ94CBupSf2tnhrppDTIqCEJrJPcjGJem1b9iDDBKk35IhtURimHjOuV2nGY0uzSp0H2ZbfM2BWUtRzCbvscg==
-  dependencies:
-    cors "^2.8.5"
-    express "^4.17.1"
-    rollup-pluginutils "^2.8.2"
-    ws "^7.1.2"
-
-rollup-plugin-hot@^0.0.9-0:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-hot/-/rollup-plugin-hot-0.0.9.tgz#036897c271428e4b687efd2c62a3db700316c45b"
-  integrity sha512-AiWyZ/iwNagJE1zsn4yF5yOrnKWaZ9boXvX/Dg1w4dkhZ8F4gJStimRt/gl1O9EcRRv+TEZGdVen5/IqAY8VBA==
   dependencies:
     cors "^2.8.5"
     express "^4.17.1"
@@ -4978,16 +4989,16 @@ rollup-plugin-serve@^1.0.1:
     mime ">=2.0.3"
     opener "1"
 
-rollup-plugin-svelte-hot@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte-hot/-/rollup-plugin-svelte-hot-0.4.2.tgz#e876144876ef41547acb684184113bb7f3373000"
-  integrity sha512-bMsDK8L3Df2whwT3FakuSdi9dEbeEYhizcUnZoEGips0q54eHSfkrWcB01n1BD2bg8IPD0F9yp+5qJoMYL8bEA==
+rollup-plugin-svelte-hot@^0.9.2:
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte-hot/-/rollup-plugin-svelte-hot-0.9.2.tgz#24d97cd9445547a97b75f04d2dbb0a1a4955e349"
+  integrity sha512-jzC0VsH41qCiKO2CjlnBbii4zxhv1w0XefGtV6WbfMI6kBEgb3M8RqGguhbv0ggv8Z9eZIbpg1+FWS2r850wlA==
   dependencies:
     require-relative "^0.8.7"
-    rollup-plugin-hot "^0.0.9-0"
+    rollup-plugin-hot-nollup "^0.1.0"
     rollup-pluginutils "^2.8.2"
-    sourcemap-codec "^1.4.4"
-    svelte-hmr "^0.5.0"
+    sourcemap-codec "^1.4.8"
+    svelte-hmr "^0.8.0"
   optionalDependencies:
     nollup ">=0.8.4"
 
@@ -5287,7 +5298,7 @@ source-map@^0.6.0, source-map@~0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-sourcemap-codec@^1.4.1, sourcemap-codec@^1.4.4, sourcemap-codec@^1.4.8:
+sourcemap-codec@^1.4.1, sourcemap-codec@^1.4.8:
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
@@ -5534,10 +5545,10 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte-hmr@^0.5.0:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.5.1.tgz#4f19a8c2635c6b71014784afcc5a6ae90f818caa"
-  integrity sha512-zX1yK3o+IZhjGcUwpde1ykA0CCbjfQATuiDnqUomaZg0wOT21Ioiz9XaQSxOkSMF5r5QYu3nd+ZK+8ML71T4/w==
+svelte-hmr@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.8.0.tgz#c02c9b5bbe2e8fa23f6f7e221aef4d00495d9e39"
+  integrity sha512-2CIgd1q2ANQhKzboWHQEZqNX+2kSun12Z8WTy/REOY4ymekWm9C9tsHKdE8uxp2snVYC64RXI6iNgtqpWtSfXg==
 
 svelte@^3.23.2:
   version "3.23.2"
