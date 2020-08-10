@@ -3875,12 +3875,12 @@ loose-envify@^1.0.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-magic-string@^0.24.0:
-  version "0.24.1"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.24.1.tgz#7e38e5f126cae9f15e71f0cf8e450818ca7d5a8f"
-  integrity sha512-YBfNxbJiixMzxW40XqJEIldzHyh5f7CZKalo1uZffevyrPEX8Qgo9s0dmcORLHdV47UyvJg8/zD+6hQG3qvJrA==
+magic-string@^0.25.7:
+  version "0.25.7"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.25.7.tgz#3f497d6fd34c669c6798dcb821f2ef31f5445051"
+  integrity sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==
   dependencies:
-    sourcemap-codec "^1.4.1"
+    sourcemap-codec "^1.4.4"
 
 map-cache@^0.2.2:
   version "0.2.2"
@@ -4133,10 +4133,10 @@ node-zopfli@^2.1.3:
     node-addon-api "^1.6.3"
     prebuild-install "^5.3.0"
 
-nollup@>=0.8.4, nollup@^0.13.2:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/nollup/-/nollup-0.13.2.tgz#58e3a7abe8c165ee527e14e6db08cbc27ce076ca"
-  integrity sha512-M+zjYWmIFSHrdo0pa/q459M9WIQ9kOOJv5KkM4sXUBCnA75/SfcIiiA4/z9OVGhxiA5BXtt6G1VX6KE5/XX+Fw==
+nollup@>=0.8.4, nollup@^0.13.3:
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/nollup/-/nollup-0.13.3.tgz#fa009565212d47bffa302f04e76e10c9dba2c9b0"
+  integrity sha512-7QMriWpgK77iqKkVeLzNy6hGbVReJf0IKz6ucdzIlxoQqVCYmaUGJCl2lZC2uyZinEEbKA6g3P3MBR2Kjs2i+A==
   dependencies:
     "@rollup/pluginutils" "^3.0.8"
     acorn "^7.3.1"
@@ -4146,7 +4146,7 @@ nollup@>=0.8.4, nollup@^0.13.2:
     express-history-api-fallback "^2.2.1"
     express-http-proxy "^1.5.1"
     express-ws "^4.0.0"
-    magic-string "^0.24.0"
+    magic-string "^0.25.7"
     mime-types "^2.1.24"
     source-map "^0.5.6"
 
@@ -5336,7 +5336,7 @@ source-map@^0.6.0, source-map@~0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-sourcemap-codec@^1.4.1, sourcemap-codec@^1.4.8:
+sourcemap-codec@^1.4.4, sourcemap-codec@^1.4.8:
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
