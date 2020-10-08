@@ -4121,10 +4121,10 @@ node-zopfli@^2.1.4:
     node-addon-api "^1.7.2"
     prebuild-install "^5.3.5"
 
-nollup@>=0.8.4, nollup@^0.13.11:
-  version "0.13.11"
-  resolved "https://registry.yarnpkg.com/nollup/-/nollup-0.13.11.tgz#1991dd6e0ed4b67eb57a7fe826ddf76c0c3c5ff9"
-  integrity sha512-ySk37D04dymbqkztGMtmjpQOV4yM9V5yM4j9UOcRy6uega6Us8a8vXoVCjm0bEscAMnTChmcTlb5IDvH0s0hNw==
+nollup@>=0.8.4, nollup@^0.13.12:
+  version "0.13.12"
+  resolved "https://registry.yarnpkg.com/nollup/-/nollup-0.13.12.tgz#52e2fac847b4ed97dc21621b57720501ab0569e6"
+  integrity sha512-+IA7Zh5jvdTzG1Vz5vK2geh0eGQh4uGC2hB2vxYpjiqfOTpVOH1sWOj3RCPz1PvhLV4lJrBcJsWNoVgNsvAiQA==
   dependencies:
     "@rollup/pluginutils" "^3.0.8"
     acorn "^7.3.1"
