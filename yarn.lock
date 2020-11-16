@@ -4924,10 +4924,10 @@ rollup-plugin-serve@^1.1.0:
     mime ">=2.4.6"
     opener "1"
 
-rollup-plugin-svelte-hot@^0.11.1:
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte-hot/-/rollup-plugin-svelte-hot-0.11.1.tgz#e9916a8e97779b050a732d4c9117df43dc69eefe"
-  integrity sha512-XK4/8yKtBBj/rtDLnb7sDYfwiqPwtKcg9eQRUt1folv1WUw/XKcKWIufwskX/YI+MoUltPem+HHTTTzchv/kdQ==
+rollup-plugin-svelte-hot@^0.11.2:
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte-hot/-/rollup-plugin-svelte-hot-0.11.2.tgz#b7e1ad5779307878e6a2f563e17ec2de5e7c281c"
+  integrity sha512-3cQnFZlrQbknbEwtEwxC2TcT2HO3BYR4/9A/7Dfzm93sQ4lvyAYlCh4JS4FximrR1jWrI/mgaOtUKYDudGIkmg==
   dependencies:
     require-relative "^0.8.7"
     rollup-plugin-hot-nollup "^0.1.2"
