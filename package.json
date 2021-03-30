@@ -15,7 +15,7 @@
     "e2e": "yarn build && cypress run -C false --config video=false,integrationFolder=app,supportFile=false,pluginsFile=false,testFiles=**/*.spec.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.13",
+    "@babel/core": "^7.13.14",
     "@babel/plugin-transform-runtime": "^7.13.10",
     "@babel/preset-env": "^7.13.12",
     "@rollup/plugin-html": "^0.2.3",
