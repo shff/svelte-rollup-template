@@ -15,7 +15,7 @@
     "e2e": "yarn build && cypress run -C false --config video=false,integrationFolder=app,supportFile=false,pluginsFile=false,testFiles=**/*.spec.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.3",
+    "@babel/core": "^7.15.5",
     "@babel/plugin-transform-runtime": "^7.14.2",
     "@babel/preset-env": "^7.14.2",
     "@rollup/plugin-html": "^0.2.3",
@@ -38,7 +38,7 @@
   "optionalDependencies": {
     "babel-eslint": "^10.1.0",
     "cypress": "^7.3.0",
-    "eslint": "^7.26.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-plugin-cypress": "^2.11.3",
@@ -48,12 +48,12 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-svelte3": "^3.2.0",
-    "eslint-plugin-unicorn": "^32.0.1",
+    "eslint-plugin-unicorn": "^33.0.1",
     "eslint-watch": "^7.0.0",
     "husky": "^6.0.0",
     "jasmine": "^3.7.0",
     "lint-staged": "^11.0.0",
-    "prettier": "^2.3.0",
+    "prettier": "^2.4.0",
     "prettier-plugin-svelte": "^2.3.0"
   },
   "babel": {
