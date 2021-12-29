@@ -1337,11 +1337,6 @@ async-each@^1.0.0:
   resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.3.tgz#b727dbf87d7651602f06f4d4ac387f47d91b0cbf"
   integrity sha512-z/WhQ5FPySLdvREByI2vZiTWwCnF0moMJ1hK9YQwDTHKh6I7/uSckMetoRGb5UBZPC1z0jlw+n/XCgjeH7y1AQ==
 
-async-limiter@~1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
-  integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
-
 async@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/async/-/async-3.2.0.tgz#b3a2685c5ebb641d3de02d161002c60fc9f85720"
@@ -2673,13 +2668,6 @@ express-http-proxy@^1.5.1, express-http-proxy@^1.6.2:
     debug "^3.0.1"
     es6-promise "^4.1.1"
     raw-body "^2.3.0"
-
-express-ws@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/express-ws/-/express-ws-4.0.0.tgz#dabd8dc974516418902a41fe6e30ed949b4d36c4"
-  integrity sha512-KEyUw8AwRET2iFjFsI1EJQrJ/fHeGiJtgpYgEWG3yDv4l/To/m3a2GaYfeGyB3lsWdvbesjF5XCMx+SVBgAAYw==
-  dependencies:
-    ws "^5.2.0"
 
 express@^4.16.3, express@^4.17.1:
   version "4.17.1"
@@ -4283,10 +4271,10 @@ node-zopfli@^2.1.4:
     node-addon-api "^1.7.2"
     prebuild-install "^5.3.5"
 
-nollup@>=0.8.4, nollup@^0.16.4:
-  version "0.16.4"
-  resolved "https://registry.yarnpkg.com/nollup/-/nollup-0.16.4.tgz#eaf8b1b1e0bb136d8d2de5bb3a585d81529b1b3e"
-  integrity sha512-uhoj87sK1g3qO9+iBh2wDiHDMfoSQrJcqztkiCQ8sX+PSQGLxXX/QR3iXO+GETMGhjxrL4006B/jXIsTzHv+oQ==
+nollup@>=0.8.4, nollup@^0.18.6:
+  version "0.18.6"
+  resolved "https://registry.yarnpkg.com/nollup/-/nollup-0.18.6.tgz#bec89eefebb5d9844272fd80d73348f555a0cc13"
+  integrity sha512-zqwcIn9Z7W5+dmt/7Ywz/o+bvjnO/Pvi2wZFgTpJenJpbOrkGoj4oU2W43C/QDbcKQPBsiKodlKUd272fga3CA==
   dependencies:
     "@rollup/pluginutils" "^3.0.8"
     acorn "^8.1.0"
@@ -4295,11 +4283,11 @@ nollup@>=0.8.4, nollup@^0.16.4:
     express "^4.16.3"
     express-history-api-fallback "^2.2.1"
     express-http-proxy "^1.5.1"
-    express-ws "^4.0.0"
     magic-string "^0.25.7"
     mime-types "^2.1.29"
     source-map "^0.5.6"
     source-map-fast "npm:source-map@0.7.3"
+    ws "^7.5.3"
 
 noop-logger@^0.1.1:
   version "0.1.1"
@@ -6053,17 +6041,10 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-ws@^5.2.0:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-5.2.3.tgz#05541053414921bc29c63bee14b8b0dd50b07b3d"
-  integrity sha512-jZArVERrMsKUatIdnLzqvcfydI85dvd/Fp1u/VOpfdDWQ4c9qWXe+VIeAbQ5FrDwciAkr+lzofXLz3Kuf26AOA==
-  dependencies:
-    async-limiter "~1.0.0"
-
-ws@^7.1.2, ws@^7.4.3:
-  version "7.4.4"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.4.tgz#383bc9742cb202292c9077ceab6f6047b17f2d59"
-  integrity sha512-Qm8k8ojNQIMx7S+Zp8u/uHOx7Qazv3Yv4q68MiWWWOJhiwG5W3x7iqmRtJo8xxrciZUY4vRxUTJCKuRnF28ZZw==
+ws@^7.1.2, ws@^7.4.3, ws@^7.5.3:
+  version "7.5.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.6.tgz#e59fc509fb15ddfb65487ee9765c5a51dec5fe7b"
+  integrity sha512-6GLgCqo2cy2A2rjCNFlxQS6ZljG/coZfZXclldI8FB/1G3CCI36Zd8xy2HrFVACi8tfk5XrgLQEk+P0Tnz9UcA==
 
 yallist@^4.0.0:
   version "4.0.0"
