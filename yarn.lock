@@ -5679,10 +5679,10 @@ svelte-hmr@^0.12.0:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.12.0.tgz#de3616d09a902fb7b0a014f1b3acdded1da352f6"
   integrity sha512-NYpzqME/jlTBL+JLilznH2QnQbREJvwikWjLNpJuekhcCqIWbnO7hrNnMZCgAKiQHAKEdiohtjARJhO7nMZGbg==
 
-svelte@^3.38.2:
-  version "3.38.2"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.38.2.tgz#55e5c681f793ae349b5cc2fe58e5782af4275ef5"
-  integrity sha512-q5Dq0/QHh4BLJyEVWGe7Cej5NWs040LWjMbicBGZ+3qpFWJ1YObRmUDZKbbovddLC9WW7THTj3kYbTOFmU9fbg==
+svelte@^3.44.3:
+  version "3.44.3"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.3.tgz#795b1ced6ed3da44969099e5061b850c93c95e9a"
+  integrity sha512-aGgrNCip5PQFNfq9e9tmm7EYxWLVHoFsEsmKrtOeRD8dmoGDdyTQ+21xd7qgFd8MNdKGSYvg7F9dr+Tc0yDymg==
 
 symbol-observable@^1.1.0:
   version "1.2.0"
