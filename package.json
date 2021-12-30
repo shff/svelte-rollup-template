@@ -27,7 +27,7 @@
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-gzip": "^2.5.0",
     "rollup-plugin-hot": "^0.1.1",
-    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-serve": "^1.1.0",
     "rollup-plugin-svelte": "^7.1.0",
     "rollup-plugin-svelte-hot": "^0.13.0",
