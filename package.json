@@ -25,7 +25,7 @@
     "nollup": "^0.18.6",
     "rollup": "^2.62.0",
     "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-gzip": "^2.5.0",
+    "rollup-plugin-gzip": "^3.0.0",
     "rollup-plugin-hot": "^0.1.1",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-serve": "^1.1.0",
