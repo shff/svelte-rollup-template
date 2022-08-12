@@ -23,7 +23,7 @@
     "livereload": "^0.9.3",
     "node-zopfli": "^2.1.4",
     "nollup": "^0.20.1",
-    "rollup": "^2.77.2",
+    "rollup": "^2.77.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-gzip": "^3.0.1",
     "rollup-plugin-hot": "^0.1.1",
