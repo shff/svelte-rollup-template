@@ -22,7 +22,7 @@
     "@rollup/plugin-node-resolve": "^14.1.0",
     "livereload": "^0.9.3",
     "node-zopfli": "^2.1.4",
-    "nollup": "^0.20.1",
+    "nollup": "^0.21.0",
     "rollup": "^2.79.1",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-gzip": "^3.0.1",
