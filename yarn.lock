@@ -1209,12 +1209,7 @@ acorn-jsx@^5.3.2:
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
   integrity sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==
 
-acorn@^8.1.0, acorn@^8.5.0:
-  version "8.7.1"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.7.1.tgz#0197122c843d1bf6d0a5e83220a788f278f63c30"
-  integrity sha512-Xx54uLJQZ19lKygFXOWsscKUbsBZW0CPykPhVQdhIeIwrbPmJzqeASDInc8nKBnp/JT6igTs82qPXz069H8I/A==
-
-acorn@^8.8.0:
+acorn@^8.1.0, acorn@^8.5.0, acorn@^8.8.0:
   version "8.8.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.0.tgz#88c0187620435c7f6015803f5539dae05a9dbea8"
   integrity sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==
@@ -4306,10 +4301,10 @@ node-zopfli@^2.1.4:
     node-addon-api "^1.7.2"
     prebuild-install "^5.3.5"
 
-nollup@^0.20.1:
-  version "0.20.1"
-  resolved "https://registry.yarnpkg.com/nollup/-/nollup-0.20.1.tgz#30911fec5a420ed12bb4762ef00daa68fc02f445"
-  integrity sha512-xkv3ravc227JKodBELE4ARSWl94gaHjohKQUg6ZwC9ozjIla96RmY+VxJYtsIDvEPbE6S5H6uz1ZCKwyWs2e5A==
+nollup@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/nollup/-/nollup-0.21.0.tgz#f2d9f2fdfe8c094160f51201adfc3b41dd7edfad"
+  integrity sha512-hMKUf8QgC2CGFsDuBoBuhJBQDKOLYGCBkx9Iy0RKbw7G45C9N4ywp+zJ7c/R0lp5NALUpR1rNp+D5US3wXoDMQ==
   dependencies:
     "@rollup/pluginutils" "^3.0.8"
     acorn "^8.1.0"
