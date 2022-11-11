@@ -5620,10 +5620,10 @@ svelte-hmr@^0.14.6:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.9.tgz#35f277efc789e1a6230185717347cddb2f8e9833"
   integrity sha512-bKE9+4qb4sAnA+TKHiYurUl970rjA0XmlP9TEP7K/ncyWz3m81kA4HOgmlZK/7irGK7gzZlaPDI3cmf8fp/+tg==
 
-svelte@^3.53.0:
-  version "3.53.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.53.0.tgz#e07cdd458f89ec47508ffac20c97a778516026a3"
-  integrity sha512-QwR6zwpcdpz5OqybIHlghM+qP2qKbzsKQuU9npgAmnI6zoTDIcjbcseUZA0AJGbotorltpQ0f413euKK4w+Piw==
+svelte@^3.53.1:
+  version "3.53.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.53.1.tgz#db9d7df7a8f570e8e22547444c149208b1914442"
+  integrity sha512-Q4/hHkktZogGhN5iqxqSi9sjEVoe/NbIxX4hXEHoasTxj+TxEQVAq66LnDMdAZxjmsodkoI5F3slqsS68U7FNw==
 
 tar-fs@^2.0.0:
   version "2.0.1"
