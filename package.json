@@ -17,7 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/plugin-transform-runtime": "^7.22.9",
-    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-env": "^7.22.10",
     "@rollup/plugin-html": "^1.0.2",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "livereload": "^0.9.3",
