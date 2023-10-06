@@ -18,7 +18,7 @@
     "@babel/core": "^7.23.0",
     "@babel/plugin-transform-runtime": "^7.22.15",
     "@babel/preset-env": "^7.22.20",
-    "@rollup/plugin-html": "^1.0.2",
+    "@rollup/plugin-html": "^1.0.3",
     "@rollup/plugin-node-resolve": "^15.2.1",
     "livereload": "^0.9.3",
     "node-zopfli": "^2.1.4",
