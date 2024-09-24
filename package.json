@@ -19,7 +19,7 @@
     "@babel/plugin-transform-runtime": "^7.25.4",
     "@babel/preset-env": "^7.25.4",
     "@rollup/plugin-html": "^1.0.4",
-    "@rollup/plugin-node-resolve": "^15.2.4",
+    "@rollup/plugin-node-resolve": "^15.3.0",
     "livereload": "^0.9.3",
     "node-zopfli": "^2.1.4",
     "nollup": "^0.21.0",
